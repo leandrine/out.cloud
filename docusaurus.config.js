@@ -24,9 +24,7 @@ scripts: [
 	async: false,
     },
     {
-      src:
-        '/js/instana2.js',
-	async: false,
+        'defer crossorigin="anonymous" src="https://eum.instana.io/eum.min.js"',
     },
   ],
 
