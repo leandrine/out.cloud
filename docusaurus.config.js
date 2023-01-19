@@ -115,12 +115,4 @@ const config = {
     }),
 };
 
-module.exports = {
-  scripts: [
-    {
-      src: 'https://eum.instana.io/eum.min.js',
-      async: true,
-    },
-  ],
-};
 module.exports = config;
