@@ -21,10 +21,12 @@ scripts: [
     {
       src:
         '/js/instana.js',
+	async: false,
     },
     {
       src:
-        'defer crossorigin=<q>anonymous</q> https://eum.instana.io/eum.min.js',
+        '/js/instana2.js',
+	async: false,
     },
   ],
 
