@@ -24,7 +24,7 @@ scripts: [
     },
     {
       src:
-        'defer crossorigin="anonymous" https://eum.instana.io/eum.min.js',
+        'defer crossorigin=<q>anonymous</q> https://eum.instana.io/eum.min.js',
     },
   ],
 
