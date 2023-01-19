@@ -16,6 +16,16 @@ const config = {
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
 
+scripts: [
+    
+    {
+      src:
+        '/js/instana.js',
+      async: false,
+    },
+        'defer crossorigin="anonymous" src="https://eum.instana.io/eum.min.js"',
+  ],
+
   presets: [
     [
       'classic',
